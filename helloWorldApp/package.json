@@ -1,0 +1,20 @@
+{
+    "name": "HelloWorldNodeJSApp",
+    "version": "1.0.0",
+    "description": "Dummy Application to illustrate the use of Docker Containers",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "docker",
+      "kubernetes",
+      "api",
+      "nodejs"
+    ],
+    "author": "Carlos Rodriguez Iturria",
+    "engines" : { "node" : ">=9.11.0 <=9.11.1" },
+    "dependencies": {
+      "express": "^4.8.5"
+    }
+  }
