@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helloWorld.oracleau.cloud
+  name: helloworld.oracleau.cloud
   labels:
-    app: helloWorld.oracleau.cloud
+    app: helloworld.oracleau.cloud
 spec:
   containers:
   - name: helloworldk8sdemo
