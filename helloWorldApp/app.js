@@ -8,7 +8,7 @@ var app = express();
 app.get('/', function (req, res) {
 
     // Returning Hello World Message:
-    res.send('<font size="7" colour="red">Hello World from a NodeJS Application</font>');
+    res.send('<font size="7" color="red">Hello World from a NodeJS Application</font>');
 });
 
 // Create an HTTP server to run our application
